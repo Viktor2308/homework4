@@ -14,7 +14,7 @@ public class main {
     }
 
     public static void task1() {
-        System.out.println("Task1");
+        System.out.println("\nTask1");
         int personAge = 16;
         if(personAge>=18) {
             System.out.println("If person age is " + personAge + " , he is an adult");
@@ -24,7 +24,7 @@ public class main {
 
     }
     public static void task2() {
-        System.out.println("Task2");
+        System.out.println("\nTask2");
         int airTemp = 4;
         if (airTemp<5){
             System.out.println("On the street " + airTemp + " degrees, you need to wear a hat!");
@@ -33,7 +33,7 @@ public class main {
         }
     }
     public static void task3(){
-        System.out.println("Task3");
+        System.out.println("\nTask3");
         int carSpeed = 61;
         if (carSpeed>60) {
             System.out.println("If car speed " + carSpeed + " km/h, you will have to pay a fine.");
@@ -42,7 +42,7 @@ public class main {
         }
     }
     public static void task4(){
-        System.out.println("Task4");
+        System.out.println("\nTask4");
         int age = 21;
         boolean kindergarten = age>2 && age<=6;
         boolean school = age>6 && age<=18;
@@ -65,7 +65,7 @@ public class main {
         }
     }
     public static void task5(){
-        System.out.println("Task5");
+        System.out.println("\nTask5");
         int age = 7;
         boolean ageSmall = age<5;
         boolean ageMiddle = age >=5 && age <14;
@@ -84,7 +84,7 @@ public class main {
 
     }
     public static void task6() {
-        System.out.println("Task6");
+        System.out.println("\nTask6");
         int person = 54;
         boolean seats = person <60;
         boolean standing = person >= 60 && person <102;
@@ -103,7 +103,7 @@ public class main {
         }
     }
     public static void task7(){
-        System.out.println("Task7");
+        System.out.println("\nTask7");
         int one = 100;
         int two = 345;
         int three = 576;
