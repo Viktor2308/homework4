@@ -12,7 +12,6 @@ public class main {
         task6();
         task7();
     }
-
     public static void task1() {
         System.out.println("\nTask1");
         int personAge = 16;
@@ -21,7 +20,6 @@ public class main {
         } else {
             System.out.println("If person age is " + personAge + " , he has not reached the age of majority, you need to wait a bit.");
         }
-
     }
     public static void task2() {
         System.out.println("\nTask2");
@@ -50,18 +48,12 @@ public class main {
         boolean work = age>24;
         if (kindergarten) {
             System.out.println("If person age " + age + " ears, then he needs go to kindergarten.");
-        } else {
-            if (school) {
-                System.out.println("If person age " + age + " ears, then he needs go to school.");
-            } else {
-                if (university){
-                    System.out.println("If person age " + age + " ears, then he needs go to university.");
-                } else {
-                    if (work) {
-                        System.out.println("If person age " + age + " ears, then he needs go to work.");
-                    }
-                }
-            }
+        } else if (school) {
+            System.out.println("If person age " + age + " ears, then he needs go to school.");
+        } else if (university){
+            System.out.println("If person age " + age + " ears, then he needs go to university.");
+        } else if (work) {
+            System.out.println("If person age " + age + " ears, then he needs go to work.");
         }
     }
     public static void task5(){
@@ -72,16 +64,11 @@ public class main {
         boolean ageHigh = age>=14;
         if (ageSmall) {
             System.out.println("If the child's age " + age + " years then he can't ride the attraction.");
-        } else {
-            if (ageMiddle) {
-                System.out.println("If the child's age " + age + " years then he can ride the attraction only accompanied by an adult.");
-            } else {
-                if (ageHigh) {
-                    System.out.println("If the child's age " + age + " years then he can ride the attraction without an adult.");
-                }
-            }
+        } else if (ageMiddle) {
+            System.out.println("If the child's age " + age + " years then he can ride the attraction only accompanied by an adult.");
+        } else if (ageHigh) {
+            System.out.println("If the child's age " + age + " years then he can ride the attraction without an adult.");
         }
-
     }
     public static void task6() {
         System.out.println("\nTask6");
@@ -91,18 +78,14 @@ public class main {
         boolean full = person >=102;
         if (seats) {
             System.out.println("The train have a sitting place.");
-        } else {
-            if (standing) {
-                System.out.println("The train have a standing place.");
-            } else {
-                if (full) {
-                    System.out.println("The train is already full.");
-                }
-            }
-
+        } else if (standing) {
+            System.out.println("The train have a standing place.");
+        } else if (full) {
+            System.out.println("The train is already full.");
         }
-    }
-    public static void task7(){
+        }
+
+    public static void task7() {
         System.out.println("\nTask7");
         int one = 100;
         int two = 345;
@@ -112,12 +95,10 @@ public class main {
 
         if (oneMax) {
             System.out.println(one + " is the biggest number.");
+        } else if (twoMax) {
+            System.out.println(two + " is the biggest number.");
         } else {
-            if (twoMax) {
-                System.out.println(two + " is the biggest number.");
-            } else {
-                System.out.println(three + " is the biggest number.");
-            }
+            System.out.println(three + " is the biggest number.");
         }
     }
 }
